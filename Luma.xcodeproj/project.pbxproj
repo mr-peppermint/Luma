@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DAF42B69C5D8A3C7CFA2A0 /* DisplaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474A55E84D72B453AA0AC38C /* DisplaysView.swift */; };
+		144B86272416637616FCC1C4 /* PowerMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCAD072CA0D524637FD8F59 /* PowerMonitor.swift */; };
+		1D677C07C5A785DA1AFF4B27 /* DisplayInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A178F50DE27063F0824CB /* DisplayInfo.swift */; };
+		3D580F30FC32591F77AC5230 /* WorkshopModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92900E9203ADCDA7951BFD /* WorkshopModels.swift */; };
+		4EC812B8EA72A00ED3259DB4 /* WorkshopScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F928EBA911B91F1323B9D857 /* WorkshopScanner.swift */; };
+		5917A469B82757194396033C /* WorkshopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA33764F6A0207AA41212FCB /* WorkshopView.swift */; };
+		59DFD12EC89F8E0CC69CAEA1 /* WallpaperDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8787687EBB7526F92DC8CF9 /* WallpaperDetailView.swift */; };
+		6D2A3E8287B3C94295ADB8B0 /* SteamLibraryLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A0BF92E98ED5F9277EFDB1 /* SteamLibraryLocator.swift */; };
+		7AE9107A87BDDB742DBCA847 /* DesktopPosterGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD13E90C1B21C271E65EC1 /* DesktopPosterGenerator.swift */; };
+		7BAA5845D266C7EEFB47D9E1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D88B51A3BFB836D4BD0341F /* RootView.swift */; };
+		85928A4BB42D556D7ABC19B0 /* RotationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C262701CF477AC370C9BF03E /* RotationScheduler.swift */; };
+		8BC7416FCEC8ECA02A0A1A3F /* PlaybackPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72482222BE4A3D225A15603D /* PlaybackPolicy.swift */; };
+		8FE51531ECC8874AAD33F47A /* LumaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDEEC7FF883E26954C4236 /* LumaApp.swift */; };
+		94B12F49A8B31167EC963767 /* StateBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3E9D9146682713166611F /* StateBox.swift */; };
+		99A03C98F486A0C73F775939 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44629C54F4BB685EB804EA80 /* AppModel.swift */; };
+		9A0672F634E1F5B6E620B24C /* DesktopWallpaperCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303949CE179A9A56DBB4FC6B /* DesktopWallpaperCoordinator.swift */; };
+		A4A2C04ECCE71502B3EFB47D /* WorkshopImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB85324A992B25BF8BDF44 /* WorkshopImporter.swift */; };
+		AE1DFA45C894EB5596318A30 /* WorkshopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C604C529503D826DAEC07F3C /* WorkshopViewModel.swift */; };
+		B26D8A650A7A42DB82D63B8B /* LockScreenAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291D56BDC29D3F1A7781A69 /* LockScreenAdapter.swift */; };
+		B707A67EF3910DCF50560290 /* DisplayIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25411AD42475029B9A1B472 /* DisplayIdentity.swift */; };
+		B75B272CE207EACE14EAFB8A /* DesktopVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B19C3B6D7EBDFD2D88973A /* DesktopVideoView.swift */; };
+		C3361F9C636E28A13A98DBDB /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEF131BFC126207EF0F5971 /* AppEnvironment.swift */; };
+		D4D2EE8B6728CAE8DD9BC6E5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22872B4FCDE15DD7A2DD006B /* SettingsView.swift */; };
+		D9AA00017B910997A4E47C03 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799AE2D590547FB158935F4C /* Theme.swift */; };
+		DE6C85DFDAB526CCCFA4B4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52216F5C33E47EAAD7C47257 /* Assets.xcassets */; };
+		E1B2FE72D94ABAE1EA911216 /* WallpaperRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C49709DE168AA86008C4C05 /* WallpaperRepository.swift */; };
+		E8D161C699039D1F3E6B6586 /* VideoImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0524F9945E451851BF1BBAB9 /* VideoImportService.swift */; };
+		E8F0C616564F919FC63CF59F /* SteamLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA63957B5F91A3F37B73165C /* SteamLinks.swift */; };
+		E9699B2D07F1C976E7F624B0 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8403F3874BDFFF933DC276 /* LibraryView.swift */; };
+		EDACAADAA1E66AEF7F85F07F /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D9EFDF8874734AA33EF7C /* Wallpaper.swift */; };
+		F4D0EE4FEFFD9B5F7EACC821 /* PreviewPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E8B09060E737B6D9140145 /* PreviewPlayerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0291D56BDC29D3F1A7781A69 /* LockScreenAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenAdapter.swift; sourceTree = "<group>"; };
+		03AB85324A992B25BF8BDF44 /* WorkshopImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopImporter.swift; sourceTree = "<group>"; };
+		0524F9945E451851BF1BBAB9 /* VideoImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoImportService.swift; sourceTree = "<group>"; };
+		080A178F50DE27063F0824CB /* DisplayInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayInfo.swift; sourceTree = "<group>"; };
+		1D88B51A3BFB836D4BD0341F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		22872B4FCDE15DD7A2DD006B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		279D9EFDF8874734AA33EF7C /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
+		303949CE179A9A56DBB4FC6B /* DesktopWallpaperCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopWallpaperCoordinator.swift; sourceTree = "<group>"; };
+		36A0BF92E98ED5F9277EFDB1 /* SteamLibraryLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamLibraryLocator.swift; sourceTree = "<group>"; };
+		44629C54F4BB685EB804EA80 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		474A55E84D72B453AA0AC38C /* DisplaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaysView.swift; sourceTree = "<group>"; };
+		4DFDEEC7FF883E26954C4236 /* LumaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumaApp.swift; sourceTree = "<group>"; };
+		4EE3E9D9146682713166611F /* StateBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBox.swift; sourceTree = "<group>"; };
+		52216F5C33E47EAAD7C47257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55FD13E90C1B21C271E65EC1 /* DesktopPosterGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopPosterGenerator.swift; sourceTree = "<group>"; };
+		72482222BE4A3D225A15603D /* PlaybackPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackPolicy.swift; sourceTree = "<group>"; };
+		799AE2D590547FB158935F4C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8C49709DE168AA86008C4C05 /* WallpaperRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperRepository.swift; sourceTree = "<group>"; };
+		92B19C3B6D7EBDFD2D88973A /* DesktopVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopVideoView.swift; sourceTree = "<group>"; };
+		93E8B09060E737B6D9140145 /* PreviewPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPlayerView.swift; sourceTree = "<group>"; };
+		9BCAD072CA0D524637FD8F59 /* PowerMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerMonitor.swift; sourceTree = "<group>"; };
+		AA33764F6A0207AA41212FCB /* WorkshopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopView.swift; sourceTree = "<group>"; };
+		B25411AD42475029B9A1B472 /* DisplayIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayIdentity.swift; sourceTree = "<group>"; };
+		B8787687EBB7526F92DC8CF9 /* WallpaperDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperDetailView.swift; sourceTree = "<group>"; };
+		BA63957B5F91A3F37B73165C /* SteamLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamLinks.swift; sourceTree = "<group>"; };
+		C262701CF477AC370C9BF03E /* RotationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationScheduler.swift; sourceTree = "<group>"; };
+		C604C529503D826DAEC07F3C /* WorkshopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopViewModel.swift; sourceTree = "<group>"; };
+		DB8403F3874BDFFF933DC276 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		DF8C531E464C9C4EDE2648C6 /* Luma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF92900E9203ADCDA7951BFD /* WorkshopModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopModels.swift; sourceTree = "<group>"; };
+		ECEF131BFC126207EF0F5971 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		F928EBA911B91F1323B9D857 /* WorkshopScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopScanner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2A98AB59ED6FB8802C301CF4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				867BF2AD488AA7AC0AD5D2EE /* Luma */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2EB8D48DB6B996295BC1E33C /* Workshop */ = {
+			isa = PBXGroup;
+			children = (
+				36A0BF92E98ED5F9277EFDB1 /* SteamLibraryLocator.swift */,
+				BA63957B5F91A3F37B73165C /* SteamLinks.swift */,
+				03AB85324A992B25BF8BDF44 /* WorkshopImporter.swift */,
+				DF92900E9203ADCDA7951BFD /* WorkshopModels.swift */,
+				F928EBA911B91F1323B9D857 /* WorkshopScanner.swift */,
+			);
+			path = Workshop;
+			sourceTree = "<group>";
+		};
+		4AE373F24546B5FEA8276A42 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8C49709DE168AA86008C4C05 /* WallpaperRepository.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		4FC7AEF0E1E860AEF3644848 /* LockScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0291D56BDC29D3F1A7781A69 /* LockScreenAdapter.swift */,
+			);
+			path = LockScreen;
+			sourceTree = "<group>";
+		};
+		596CF60424C69486DEE4C4FB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ECEF131BFC126207EF0F5971 /* AppEnvironment.swift */,
+				44629C54F4BB685EB804EA80 /* AppModel.swift */,
+				4DFDEEC7FF883E26954C4236 /* LumaApp.swift */,
+				C604C529503D826DAEC07F3C /* WorkshopViewModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		751CBF99010567D043B5DA42 = {
+			isa = PBXGroup;
+			children = (
+				D1D74E43299CD30D89B80F74 /* Resources */,
+				2A98AB59ED6FB8802C301CF4 /* Sources */,
+				90CFB4B53B5F9EF91D718FC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77F1E5CD094AD7A44486408B /* Power */ = {
+			isa = PBXGroup;
+			children = (
+				9BCAD072CA0D524637FD8F59 /* PowerMonitor.swift */,
+			);
+			path = Power;
+			sourceTree = "<group>";
+		};
+		867BF2AD488AA7AC0AD5D2EE /* Luma */ = {
+			isa = PBXGroup;
+			children = (
+				596CF60424C69486DEE4C4FB /* App */,
+				EA06FC4EBB5C949B8626F413 /* Domain */,
+				EC61212B10A0CD1DEB07FFCA /* Import */,
+				4AE373F24546B5FEA8276A42 /* Library */,
+				4FC7AEF0E1E860AEF3644848 /* LockScreen */,
+				CF7C4B2524DA13A95ADD50C8 /* Playback */,
+				77F1E5CD094AD7A44486408B /* Power */,
+				C0408CFF33059FAEACCE3EDC /* Rotation */,
+				E993FBC5F13F823DB9AEB626 /* UI */,
+				2EB8D48DB6B996295BC1E33C /* Workshop */,
+			);
+			path = Luma;
+			sourceTree = "<group>";
+		};
+		90CFB4B53B5F9EF91D718FC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF8C531E464C9C4EDE2648C6 /* Luma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0408CFF33059FAEACCE3EDC /* Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				C262701CF477AC370C9BF03E /* RotationScheduler.swift */,
+			);
+			path = Rotation;
+			sourceTree = "<group>";
+		};
+		CF7C4B2524DA13A95ADD50C8 /* Playback */ = {
+			isa = PBXGroup;
+			children = (
+				55FD13E90C1B21C271E65EC1 /* DesktopPosterGenerator.swift */,
+				92B19C3B6D7EBDFD2D88973A /* DesktopVideoView.swift */,
+				303949CE179A9A56DBB4FC6B /* DesktopWallpaperCoordinator.swift */,
+				B25411AD42475029B9A1B472 /* DisplayIdentity.swift */,
+				72482222BE4A3D225A15603D /* PlaybackPolicy.swift */,
+				93E8B09060E737B6D9140145 /* PreviewPlayerView.swift */,
+			);
+			path = Playback;
+			sourceTree = "<group>";
+		};
+		D1D74E43299CD30D89B80F74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52216F5C33E47EAAD7C47257 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E993FBC5F13F823DB9AEB626 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				474A55E84D72B453AA0AC38C /* DisplaysView.swift */,
+				DB8403F3874BDFFF933DC276 /* LibraryView.swift */,
+				1D88B51A3BFB836D4BD0341F /* RootView.swift */,
+				22872B4FCDE15DD7A2DD006B /* SettingsView.swift */,
+				4EE3E9D9146682713166611F /* StateBox.swift */,
+				799AE2D590547FB158935F4C /* Theme.swift */,
+				B8787687EBB7526F92DC8CF9 /* WallpaperDetailView.swift */,
+				AA33764F6A0207AA41212FCB /* WorkshopView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EA06FC4EBB5C949B8626F413 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				080A178F50DE27063F0824CB /* DisplayInfo.swift */,
+				279D9EFDF8874734AA33EF7C /* Wallpaper.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EC61212B10A0CD1DEB07FFCA /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				0524F9945E451851BF1BBAB9 /* VideoImportService.swift */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0565F6C7DA26F0482928704E /* Luma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39082DED094B543B7F177A5B /* Build configuration list for PBXNativeTarget "Luma" */;
+			buildPhases = (
+				71162CE529E90DAEDA4BB5A5 /* Sources */,
+				988CDDC80A2A68B4C03DF20F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Luma;
+			packageProductDependencies = (
+			);
+			productName = Luma;
+			productReference = DF8C531E464C9C4EDE2648C6 /* Luma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AACE5AD3943208FFB6B19277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0565F6C7DA26F0482928704E = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DEFB5A06B29D6BCD602A2291 /* Build configuration list for PBXProject "Luma" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 751CBF99010567D043B5DA42;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 90CFB4B53B5F9EF91D718FC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0565F6C7DA26F0482928704E /* Luma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		988CDDC80A2A68B4C03DF20F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6C85DFDAB526CCCFA4B4A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71162CE529E90DAEDA4BB5A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3361F9C636E28A13A98DBDB /* AppEnvironment.swift in Sources */,
+				99A03C98F486A0C73F775939 /* AppModel.swift in Sources */,
+				7AE9107A87BDDB742DBCA847 /* DesktopPosterGenerator.swift in Sources */,
+				B75B272CE207EACE14EAFB8A /* DesktopVideoView.swift in Sources */,
+				9A0672F634E1F5B6E620B24C /* DesktopWallpaperCoordinator.swift in Sources */,
+				B707A67EF3910DCF50560290 /* DisplayIdentity.swift in Sources */,
+				1D677C07C5A785DA1AFF4B27 /* DisplayInfo.swift in Sources */,
+				00DAF42B69C5D8A3C7CFA2A0 /* DisplaysView.swift in Sources */,
+				E9699B2D07F1C976E7F624B0 /* LibraryView.swift in Sources */,
+				B26D8A650A7A42DB82D63B8B /* LockScreenAdapter.swift in Sources */,
+				8FE51531ECC8874AAD33F47A /* LumaApp.swift in Sources */,
+				8BC7416FCEC8ECA02A0A1A3F /* PlaybackPolicy.swift in Sources */,
+				144B86272416637616FCC1C4 /* PowerMonitor.swift in Sources */,
+				F4D0EE4FEFFD9B5F7EACC821 /* PreviewPlayerView.swift in Sources */,
+				7BAA5845D266C7EEFB47D9E1 /* RootView.swift in Sources */,
+				85928A4BB42D556D7ABC19B0 /* RotationScheduler.swift in Sources */,
+				D4D2EE8B6728CAE8DD9BC6E5 /* SettingsView.swift in Sources */,
+				94B12F49A8B31167EC963767 /* StateBox.swift in Sources */,
+				6D2A3E8287B3C94295ADB8B0 /* SteamLibraryLocator.swift in Sources */,
+				E8F0C616564F919FC63CF59F /* SteamLinks.swift in Sources */,
+				D9AA00017B910997A4E47C03 /* Theme.swift in Sources */,
+				E8D161C699039D1F3E6B6586 /* VideoImportService.swift in Sources */,
+				EDACAADAA1E66AEF7F85F07F /* Wallpaper.swift in Sources */,
+				59DFD12EC89F8E0CC69CAEA1 /* WallpaperDetailView.swift in Sources */,
+				E1B2FE72D94ABAE1EA911216 /* WallpaperRepository.swift in Sources */,
+				A4A2C04ECCE71502B3EFB47D /* WorkshopImporter.swift in Sources */,
+				3D580F30FC32591F77AC5230 /* WorkshopModels.swift in Sources */,
+				4EC812B8EA72A00ED3259DB4 /* WorkshopScanner.swift in Sources */,
+				5917A469B82757194396033C /* WorkshopView.swift in Sources */,
+				AE1DFA45C894EB5596318A30 /* WorkshopViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1882B0980A47A72FB926BD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luma.app.Luma;
+				PRODUCT_NAME = Luma;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Release;
+		};
+		6CB952023A286F13211CB884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C0A4C21F59ADC6DDCD811DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FEECD67107BB7AE74F3574C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luma.app.Luma;
+				PRODUCT_NAME = Luma;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39082DED094B543B7F177A5B /* Build configuration list for PBXNativeTarget "Luma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEECD67107BB7AE74F3574C8 /* Debug */,
+				1882B0980A47A72FB926BD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DEFB5A06B29D6BCD602A2291 /* Build configuration list for PBXProject "Luma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB952023A286F13211CB884 /* Debug */,
+				C0A4C21F59ADC6DDCD811DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AACE5AD3943208FFB6B19277 /* Project object */;
+}

@@ -1,0 +1,31 @@
+name: Luma
+options:
+  bundleIdPrefix: com.luma.app
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    ENABLE_HARDENED_RUNTIME: NO
+    CODE_SIGN_STYLE: Automatic
+    GENERATE_INFOPLIST_FILE: NO
+
+targets:
+  Luma:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources/Luma
+      - path: Resources/Assets.xcassets
+    settings:
+      base:
+        PRODUCT_NAME: Luma
+        PRODUCT_BUNDLE_IDENTIFIER: com.luma.app.Luma
+        INFOPLIST_FILE: Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        SWIFT_EMIT_LOC_STRINGS: NO
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
